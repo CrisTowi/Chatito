@@ -1,0 +1,43 @@
+body
+{
+	color: white;
+	background-image:url('back.jpg');
+}
+
+
+#formulario
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:70%;
+}
+
+#sala
+{
+	color: black;
+	background-color: white;
+	overflow: auto;
+	display: inline-block;
+	height: 60%;
+	margin-left: 10%;
+	width: 50%;
+	border-radius: 2%;
+}
+
+#conectados
+{
+	color: black;
+	background-color: white;
+	overflow: auto;
+	display: inline-block;
+	height: 60%;
+	width: 30%;
+	border-radius: 2%;
+}
+
+#contenedor
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:80%;
+}

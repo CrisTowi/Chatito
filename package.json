@@ -1,0 +1,18 @@
+{
+	"name": "Chat2",
+	"version": "0.0.0",
+	"description": "Mi segundo chat realtime",
+	"dependencies": {
+		"socket.io": "latest",
+		"express": "3.4.4",
+		"jade": "latest"
+	},
+	"author": "Cris",
+	"subdomain": "Cris_Towi-Chat2",
+	"scripts": {
+		"start": "chat.js"
+	},
+	"engines": {
+		"node": "0.10.x"
+	}
+}

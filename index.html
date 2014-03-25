@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+
+	</head>
+	<body>
+		<div class="row" id="contenedor">
+			<h1>Chatito</h1>
+			<section id="sala">
+				<h3>Sala de chat</h3>
+				<ul>
+				</ul>	
+			</section>
+
+
+			<section id="conectados">
+				<h3>Conectados</h3>
+				<ul class="nav nav-pills nav-stacked">
+					
+				</ul>
+			</section>
+			
+		</div>
+
+		<div id="formulario">
+			<input class="form-control" type="text" id="username" placeholder="Introduce tu username">
+			<br>
+			<button id="set_username" class="btn btn-success">Set</button>
+			<div id="del_chat">
+
+				<textarea class="form-control" id="texto" placeholder="Introduce el texto"></textarea>
+				<br>
+				<button id="btn_enviar" class="btn btn-success">Enviar</button>
+				<button id="btn_enviar_privado" class="btn btn-success">Mensaje Privado</button>
+				<br>
+				<br>
+				<input style="width: 200px;" type="text" class="form-control" id="usuario_privado" placeholder="¿Para quién?"/> 
+				<br>
+				<br>
+         <div class="btn btn-success">Send Image<input type="file" id="imagefile" accept="image/*"></div>
+			</div>
+		</div>
+
+		<script src="jquery-2.0.2.min.js"></script>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="script.js"></script>
+
+	</body>
+</html>
